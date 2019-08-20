@@ -6,5 +6,5 @@ OUTLINE:
     -> Product Gallery
     -> Packages
   -> Third Page: Contact Us
-    -> Email Comminication
+    -> Email Communication
     -> Order Forms
