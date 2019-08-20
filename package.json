@@ -1,0 +1,11 @@
+{
+  "name": "sanjyog_site",
+  "version": "1.0.0",
+  "description": "Sanjyog Event Planners Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarthak Sharma",
+  "license": "ISC"
+}
