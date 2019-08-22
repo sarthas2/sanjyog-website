@@ -1,3 +1,4 @@
+/*Elements*/
 body{
   height: 100vh;
   width: 100vw;
@@ -5,21 +6,210 @@ body{
   overflow-x: hidden;
   padding: 0px;
   margin: 0px;
-  background-color: #7986CB;
+  background-color: #E0E0E0;
 }
-#title{
 
-  height: auto;
-  background-color: #1A237E;
-  padding: 0.75rem 0rem 0.5rem 0.5rem;
+/*IDs*/
+#title{
+  height: 100%;
+  width: 100%;
+  /*background-color: #1A237E;*/
+  background-image: url("../media/fire_bg.jpg");
+  background-size: contain;
+  padding: 0.75rem;
   text-align: center;
   margin: -1.5rem 0rem 0rem 0rem;
   color: white;
+  box-shadow: 0 0.5rem 5px #424242;
 }
+#title_text{
+  width: 50%;
+  background-color: black;
+  margin: 20% 20% 25% 20%;
+  padding: 1rem;
+  font-size: 2rem;
+  border: 0.5rem double white;
+  opacity: 0.9;
+
+}
+#content{
+  margin-top: 7em;
+}
+#bottom_menu{
+  background-color: black;
+  padding: 1rem;
+  height: auto;
+  text-align: center;
+  font-family: serif;
+  color: white;
+}
+#jyoti{
+  float: right;
+  height: 55vh;
+  width: 60vh;
+}
+#about_us{
+  height: auto;
+  background: white;
+  padding: 0;
+}
+#intro_text{
+    height: 50vh;
+    width: 75%;
+    text-align: center;
+    padding: 0.9rem;
+    color: black;
+}
+#intro_header{
+  font-family: Apple Chancery;
+  font-style: italic;
+}
+#container{
+  height: 100vh;
+  padding: 2em;
+}
+#changer{
+  width: 5%;
+  border-radius: 50px;
+  padding: 0.2em;
+  padding-top: 0.4em;
+  background: black;
+  border: 0.1em solid white;
+  opacity: .5;
+  margin-left: 47%;
+  margin-right: 50%;
+}
+#pos{
+  width: 5%;
+  border-radius: 50px;
+  text-align: center;
+  padding: 0.2em;
+  background: black;
+  border: 0.1em solid white;
+  opacity: .5;
+}
+#gal_header{
+  width: 25%;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  border: 0.5rem double white;
+  padding: 1em;
+  margin-left: 33.5%;
+  background: black;
+  opacity: 0.9;
+}
+
+/*Classes*/
 .page{
   height: auto;
   background-color: #E8EAF6;
   margin: 1rem 1rem 1rem 1rem;
   padding: 1rem;
   border-radius: 20px;
+  box-shadow: 0.5rem 0.5rem 5px #424242;
 }
+.flex_cont{
+  display: flex;
+}
+.blurred{
+  filter: blur(5px);
+}
+.overlay{
+
+}
+
+/*Start for Slideshow Styling*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*End for Slideshow Styling*/
