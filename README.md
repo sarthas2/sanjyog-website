@@ -1,2 +1,4 @@
 # sanjyog-website
-with Sanjyog Event Planners project
+
+Description:
+  This is a website for the Sanjyog Event Planners.
