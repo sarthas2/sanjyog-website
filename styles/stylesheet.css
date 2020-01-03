@@ -1,0 +1,140 @@
+/*Mobile*/
+[class*="col-"]{
+  width: 100%;
+}
+
+body{
+  background-color: #fffdfc;
+}
+
+.contact_form{
+  border: 2px solid black;
+  margin: 10px;
+  width: 96vw;
+}
+
+.header_section{
+  margin-top: 25vw;
+  margin-bottom: 50vw;
+}
+
+.header{
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: -20px;
+
+  position: relative;
+}
+.tab{
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.gallery{
+  max-width: 96vw;
+  margin: 10px;
+}
+
+.form_header{
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.bottom_menu{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.intro_pic{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.intro{
+  text-align: center;
+}
+
+input, textarea{
+  margin: 10px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+}
+
+
+#logo{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  margin-left: 3vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact_form{
+    border: 2px solid black;
+    margin: 10px;
+    margin-left: 12vw;
+    width: 75vw;
+    margin-top: 10vw;
+  }
+  .intro{
+    text-align: center;
+    display:flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  .gallery{
+    display: inline-flex;
+    height: 30vw;
+    width: 30vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header_section{
+    margin-top: 3vw;
+    margin-bottom: 0vw;
+  }
+  .img_gal{
+    margin-left: 2.5vw
+  }
+  .intro_pic{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  #intro_text{
+    padding: 20px;
+  }
+  .header{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: -100px;
+    font-size: 5vw;
+    position: relative;
+  }
+  .contact_form{
+    border: 2px solid black;
+    margin: 10px;
+    margin-left: 12vw;
+    width: 75vw;
+    margin-top: 10vw;
+  }
+  .intro{
+    text-align: center;
+    display:flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  .gallery{
+    display: inline-flex;
+    height: 30vw;
+    width: 30vw;
+  }
+  #sec_header, #gal_header, #con_header{
+    font-size: 3rem;
+  }
+}
